@@ -8,3 +8,12 @@ This is a front-end web page project built using React and JavaScript. The proje
 - 💻 Modern user interface
 - 🔄 Dynamic content rendering
 - 🚀 Easy to navigate
+
+## Technologies Used
+- ⚛️ React
+- 🟦 JavaScript
+- 🌐 HTML/CSS
+
+## Author
+[W.D.S.G.C. Dihara]
+
