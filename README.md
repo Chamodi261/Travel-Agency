@@ -1,4 +1,4 @@
-# Frontend Web Page Project
+# 🌐 Frontend Web Page Project
 
 ## Introduction
 This is a frontend web page project built using React and JavaScript. The project is styled using CSS and is designed to be fully responsive across different devices and screen sizes.
@@ -8,4 +8,3 @@ This is a frontend web page project built using React and JavaScript. The projec
 - Modern user interface
 - Dynamic content rendering
 - Easy to navigate
-
