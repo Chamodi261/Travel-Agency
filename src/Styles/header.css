@@ -1,0 +1,76 @@
+.header {
+    /* background-color: blueviolet; */
+    padding: 8%;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    max-height: 200px;
+    position: relative; /* Make the header position relative */
+}
+
+.header h1 {
+    padding-top: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative; /* Make the h1 position absolute */
+    top: 5%; /* Adjust the top value to move it up */
+    left: 30%;
+    transform: translateX(-50%);
+    font-size: 2.5em;
+    /* padding: 10%; */
+}
+
+.header p {
+    font-style: italic;
+    text-align: end;
+    position: absolute; /* Make the p position absolute */
+    bottom: 7%; /* Adjust the bottom value to move it down */
+    left: 8%; /* Adjust the right value to move it horizontally */
+    right: 2%;
+    font-size: 1.2em;
+}
+
+
+@media only screen and (max-width: 600px){
+    .header{
+        padding: 40px;
+    }
+
+    .header h1{
+        font-size: 1.4em;
+        top: 8%;
+        left: 40%;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .header p{
+        bottom: 7%; /* Adjust the bottom value to move it down */
+        left: 8%; /* Adjust the right value to move it horizontally */
+        right: 3%;
+        font-size: 0.75em;
+        top: 55%;
+
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1366px) {
+    .header{
+        padding: 60px;
+    }
+
+    .header h1{
+        font-size: 1.8em;
+        top: 8%;
+        left: 40%;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .header p{
+        bottom: 7%; /* Adjust the bottom value to move it down */
+        left: 8%; /* Adjust the right value to move it horizontally */
+        right: 3%;
+        font-size: 0.95em;
+        margin: 1.5%;
+    }
+}

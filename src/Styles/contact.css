@@ -1,0 +1,15 @@
+.contact{
+    padding: 1%;
+    background-color: rgb(68, 142, 168);
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        padding: 1%;
+    }
+
+    .contact p{
+        font-size: 0.85em ;
+    }
+}

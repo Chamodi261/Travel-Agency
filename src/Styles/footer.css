@@ -1,0 +1,19 @@
+.footer{
+    padding: 1%;
+    background-color: rgb(55, 107, 107);
+}
+
+.footer p{
+    position: relative;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        padding: 1%;
+    }
+
+    .footer p{
+        font-size: 0.85em ;
+    }
+}
